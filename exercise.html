@@ -6,15 +6,17 @@
     
     <script>
       function exercise() {
-        alert("손가락 운동이 뭐냐면요...\n 알림 확인을 300번 누르는 거예요 :)");
+        alert("손가락 운동이 뭐냐면요...\n알림 확인을 300번 누르는 거예요 :)");
         for (i=300; i>0; i--) {
           alert(i+"번 남았습니다.");
         }
         alert("정말 수고하셨어요 ㅎㅎ");
+        document.getElementById("great").innerHTML="수고하셨고, 정말 대단하십니다...";
       }
     </script>
   </head>
   <body>
-    <button onclick="javascript:exercise();">FINGER EXERCISE</button>
+    <button id="great" onclick="javascript:exercise();">:)</button>
+    <p id="great">버튼을 눌러서 손가락 운동을 하세요.</p>
   </body>
 </html>
