@@ -25,14 +25,18 @@
           alert(i+"번 남았습니다.");
         }
         alert("정말 수고하셨어요 ㅎㅎ");
-        document.getElementById("great").innerHTML="수고하셨고, 정말 대단하십니다...";
+        document.getElementById("great").innerHTML = "수고하셨고, 정말 대단하십니다...";
+        document.getElementById("good").innerHTML = "<img src = emoji_9.gif>"
       }
     </script>
   </head>
   <body>
     <center>
-      <button onclick="javascript:exercise();">:)</button>
-      <p id="great" style="font-family: Arial;">버튼을 눌러서 손가락 운동을 하세요.</p>
+      <button onclick = "javascript: exercise();">:)</button>
+      <p id = "great" style = "font-family: Arial;">버튼을 눌러서 손가락 운동을 하세요.</p>
+      <div id = "good">
+        
+      </div>
     </center>
   </body>
 </html>
