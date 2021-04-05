@@ -1,0 +1,35 @@
+body {
+    color: #ffffff;
+    font-family: Arial;
+    background: #91BA9B;
+    padding: 10%;
+    margin: 0;
+}
+#member {
+    text-transform: uppercase;
+}
+button {
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #89B092;
+    box-shadow: 0 3px 3px #89B092;
+    text-transform: uppercase;
+    outline: none;
+}
+.btn1 {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: #9DC9A8;
+    padding: 15px 20px;
+    
+    transition: all .3s ease-in-out;
+}
+.btn1:hover {
+    background: #8FB899;
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.2);
+    transform: scale(.97);
+    cursor: pointer;
+}
